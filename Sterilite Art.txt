@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterilite Art</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .artwork {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+        }
+        .artwork img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sterilite Art</h1>
+    </header>
+    
+    <nav>
+        <a href="#biography">Biography</a>
+        <a href="#collection">Art Collection</a>
+        <a href="#sales">Sold Artworks</a>
+        <a href="#pending">Pending Purchases</a>
+    </nav>
+    
+    <main>
+        <section id="biography">
+            <h2>Biography of Peter Muth</h2>
+            <p>Peter Muth, the founder of Sterilite Art, began his art collection journey in 2022. His passion for art and innovation led him to embrace NFTs, purchasing over 200 artworks from talented artists worldwide. Under his leadership, Sterilite Art has become a renowned platform for art lovers and collectors.</p>
+        </section>
+
+        <section id="collection">
+            <h2>Art Collection</h2>
+            <div class="artwork">
+                <img src="https://via.placeholder.com/200" alt="Artwork 1">
+                <p>Artwork 1 - $1000</p>
+            </div>
+            <div class="artwork">
+                <img src="https://via.placeholder.com/200" alt="Artwork 2">
+                <p>Artwork 2 - $1200</p>
+            </div>
+            <!-- Add more artworks here -->
+        </section>
+
+        <section id="sales">
+            <h2>Sold Artworks</h2>
+            <p>Our collection has sold numerous art frames in Africa, with prices starting from $12,000 and above.</p>
+        </section>
+
+        <section id="pending">
+            <h2>Pending Purchases</h2>
+            <p>Currently, we have a pending purchase with Mr. Ellis, ensuring the continued expansion of our collection.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Sterilite Art. All rights reserved.</p>
+    </footer>
+</body>
+</html>
